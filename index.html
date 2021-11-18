@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<?php
+
+// include('includes/config.php');
+
+// if (isset($_POST['submit'])) {
+//   $msg = $_POST['msg'];
+//   $name = $_POST['name'];
+//   $email = $_POST['email'];
+//   $num = $_POST['num'];
+//   $status = 1;
+//   $query = mysqli_query($con, "INSERT INTO `contacts`(cname,msg,email,num,active) VALUES('$name','$msg',$email,'$num','$status')");
+//   if ($query) {
+//     $msg = "Number Added ";
+//   } else {
+//     $error = "Something went wrong . Please try again.";
+//   }
+// }
+
+?>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+  <!--/BOOTSTRAP-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <div class="sidebar">
+    <ul class="sidebarInsides">
+      <li class="sidebarItem"> <a href="#skills"> Skills </a></li>
+      <li class="sidebarItem"> <a href="#projects"> Projects </a></li>
+      <li class="sidebarItem"> <a href="#brief"> Who Am I? </a></li>
+      <!-- <li class="sidebarItem"> <a href="#brief"> Contact </a></li> -->
+    </ul>
+  </div>
+  <div class="socials">
+    <ul class="socialsInsides">
+      <li class="socialsItem">
+        <a href="https://www.facebook.com/hamedserag4"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li class="socialsItem">
+        <a href="https://github.com/hamedserag"><i class="fa fa-github"></i></a>
+      </li>
+      <li class="socialsItem">
+        <a href="https://www.linkedin.com/in/hamedserag/"><i class="fa fa-linkedin"></i></a>
+      </li>
+    </ul>
+  </div>
+
+  <section id="cover">
+    <div class="main-img-container">
+      <img class="portImg" src="media/img/portCut2.png" alt="">
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <div class="row justify-content-center pt-5">
+        <h1 class="header">Skills</h1>
+      </div>
+      <div class="row justify-content-center">
+        <!-- web -->
+        <div class="col-lg-12 row justify-content-center">
+          <div class="col-4 justify-content-start">
+            <h1 class="header">Web Dev</h1>
+            <p class="skill-text">HTML5</p>
+            <p class="skill-text">CSS</p>
+            <p class="skill-text">Bootstrap</p>
+            <p class="skill-text">JS</p>
+            <p class="skill-text">jquery</p>
+            <p class="skill-text">PHP</p>
+            <p class="skill-text">Laravel</p>
+            <p class="skill-text">API Integration</p>
+            <p class="skill-text">Database Integration</p>
+          </div>
+          <div class="col-4 justify-content-end">
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:90%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:90%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:95%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:80%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:65%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:80%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:60%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:70%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:80%;"></div>
+            </div>
+          </div>
+        </div>
+        <!-- game -->
+        <div class="col-lg-12 row justify-content-center">
+          <div class="col-4 justify-content-start">
+            <h1 class="header">Game Dev</h1>
+            <p class="skill-text">Unity</p>
+            <p class="skill-text">C sharp</p>
+            <p class="skill-text">Blender</p>
+            <p class="skill-text">Photoshop</p>
+            <p class="skill-text">Preimere Pro</p>
+            <p class="skill-text">Fuse</p>
+          </div>
+          <div class="col-4 justify-content-end">
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:80%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:90%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:60%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:50%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:50%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:40%;"></div>
+            </div>
+          </div>
+        </div>
+        <!-- software -->
+        <div class="col-lg-12 row justify-content-center">
+          <div class="col-4 justify-content-start">
+            <h1 class="header">Software Dev</h1>
+            <p class="skill-text">C sharp</p>
+            <p class="skill-text">Gui Design</p>
+            <p class="skill-text">Objective C</p>
+            <p class="skill-text">MySql</p>
+          </div>
+          <div class="col-4 justify-content-end">
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:90%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:90%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:80%;"></div>
+            </div>
+            <div class="skill-border col-12 justify-content-start">
+              <div class="skill-progress" style="width:95%;"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <div class="row justify-content-center mt-5 pt-5 pb-2">
+        <h1 class="header">Projects</h1>
+      </div>
+      <!-- waseet -->
+      <div class="row justify-content-center">
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Aug 2021</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">Al-Waseet</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is an arabic news website that provides features as prayer times ,weather data ,realtime currency exchange ,realtime gold prices ,books ,articles and more</p>
+          </div>
+        </div>
+      </div>
+      <!-- shawkat -->
+      <div class="row justify-content-center">
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Apr 2021</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">Doctor Portfolio</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">DrShawkat is a website for reserving appointments and showcasing the doctor's work</p>
+          </div>
+        </div>
+      </div>
+      <!-- getgud -->
+      <div class="row justify-content-center">
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Feb 2020</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">GetGud</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is an online games store that helps connecting buyers to sellers and makes the distribution process alot easier</p>
+          </div>
+        </div>
+      </div>
+      <!-- techlab -->
+      <div class="row justify-content-center">
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Apr 2020</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">Techlab</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is an online E-Store that gives a solution for the current various barriers created by covid-19</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- maze -->
+      <div class="row justify-content-center">
+
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Jul 2021</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">Maze</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is a simple Maze game that uses randomization and MST algorithm in creating random but slightly complex mazes to go through and go on a wild adventure</p>
+          </div>
+        </div>
+      </div>
+      <!-- snake -->
+      <div class="row justify-content-center">
+
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Nov 2020</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">Snake Multiplayer</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is a simple snake game that makes use of sockets.io to gather players to have an enjoyable time</p>
+          </div>
+        </div>
+      </div>
+      <!-- sudoku dd -->
+      <div class="row justify-content-center">
+
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Sep 2020</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">Sudoko Dungeons</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is a new type of sudoku puzzle that inserts the fantasy aspect through dragons, goblins and various dungeons monsters</p>
+          </div>
+        </div>
+      </div>
+      <!-- lazy controller -->
+      <div class="row justify-content-center">
+
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Dec 2020</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">Lazy Controller</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is a voice recognition software that replaces the media controles in media players such as VLC, WMP, Netflix and more by voice commands instead of buttons</p>
+          </div>
+        </div>
+      </div>
+      <!-- ywb -->
+      <div class="row justify-content-center">
+
+        <div class="col-12 row justify-content-center mt-3">
+          <div class="col-2 d-flex align-items-center">
+            <p class="project-text">Oct 2020</p>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <a href="http://wassetofficial.000webhostapp.com/" class="project-link">YWB</a>
+          </div>
+          <div class="col-4">
+            <p class="project-text">is a software that improves youtube watch hours by plauing the videos through a browser window from multiple proxy connections</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+  <section id="brief">
+    <div class="container">
+      <div class="row justify-content-center mt-5 pt-5">
+        <h1 class="header">Who Am I ?</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 row justify-content-center">
+          <div class="col-8">
+            <p class="brief-header">Hamed Serag is a computer and artificial intelliegence student at Hewlan University born and raised in giza, passionate about Web , software and game development</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5 pt-5">
+        <h1 class="header">Experience</h1>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 row justify-content-center">
+          <div class="col-4 d-flex align-items-center">
+            <p class="brief-header">Vice President @ Minders</p>
+          </div>
+          <div class="col-4">
+            <p class="brief-text">responsible for the organiztaion's planning and the mangament of a 250+ crew to help reach the vision of promoting young entrepreneurs</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 row justify-content-center">
+          <div class="col-4 d-flex align-items-center">
+            <p class="brief-header">Head IT @ Minders</p>
+          </div>
+          <div class="col-4">
+            <p class="brief-text">responsible for tuttoring and monitoring a small team of volunteers <br> responsible for the organiztaion's website updates and maintenance </p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 row justify-content-center">
+          <div class="col-4 d-flex align-items-center">
+            <p class="brief-header">Volunteer IT @ Minders</p>
+          </div>
+          <div class="col-4">
+            <p class="brief-text">Contributed in web development workshops and helped as a technical support in Minders'20 Events</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 row justify-content-center">
+          <div class="col-4 d-flex align-items-center">
+            <p class="brief-header">Helper AC @ Minders</p>
+          </div>
+          <div class="col-4">
+            <p class="brief-text">Constructed a course about algorithms that has 2100+ total views</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 row justify-content-center">
+          <div class="col-4 d-flex align-items-center">
+            <p class="brief-header">Intern @ GatsbAI</p>
+          </div>
+          <div class="col-4">
+            <p class="brief-text">Contributed in web development workshops</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 row justify-content-center">
+          <div class="col-4 d-flex align-items-center">
+            <p class="brief-header">Freelancer</p>
+          </div>
+          <div class="col-4">
+            <p class="brief-text">Worked as a freelancer for 1.5+ years</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+  <!-- <section id="contact">
+    <form action="welcome.php" method="post" class="container">
+      <div class="row">
+        <div class="row col-12 justify-content-center">
+          <h1 class="col-2 contact-header">Name</h1>
+          <input class="col-6 contact-input" type="text" name="name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="row col-12 justify-content-center">
+          <h1 class="col-2 contact-header">E-Mail</h1>
+          <input class="col-6 contact-input" type="text" name="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="row col-12 justify-content-center">
+          <h1 class="col-2 contact-header">Phone Number</h1>
+          <input class="col-6 contact-input" type="text" name="num">
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="row col-12 justify-content-center">
+          <h1 class="col-2 contact-header">Message</h1>
+          <input class="col-6 contact-input" type="text" name="msg">
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 row justify-content-center">
+          <div class="col-8 row justify-content-end">
+            <input class="contact-btn" type="submit" value="Submit">
+          </div>
+        </div>
+      </div>
+    </form>
+  </section> -->
+  <footer>
+
+  </footer>
+</body>
+<footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--BOOTSTRAP-->
+  <script src="bootstrap/js/bootstrap.bundle.js" charset="utf-8"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+  <script src="bootstrap/js/bootstrap.js" charset="utf-8"></script>
+  <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  <!--/BOOTSTRAP-->
+  <script src="js/app.js" charset="utf-8"></script>
+</footer>
+
+</html>
+
+
+<!-- color pallete  -->
+<ul class="colors">
+  <li class="c1">prim</li>
+  <li class="c2">sec</li>
+  <li class="c3">dark</li>
+  <li class="c4">light</li>
+  <li class="c5">lighter</li>
+  <li class="c6">white</li>
+</ul>
